@@ -78,6 +78,11 @@
     self.view.backgroundColor = [UIColor grayColor];
     self.navigationController.navigationBar.tintColor = COOKBOOK_PURPLE_COLOR;
     
+    
+    // this is test
+    // this is test
+    // this is test for us
+    
      UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake( 40, 50,54,29);
     [button setBackgroundColor:[UIColor redColor]];

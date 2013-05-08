@@ -87,12 +87,22 @@
     //metesting
     //they testing
     
-     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake( 40, 50,54,29);
     [button setBackgroundColor:[UIColor redColor]];
     //[button setBackgroundImage:image forState:UIControlStateNormal];
     [button addTarget:self action:@selector(backmethod:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+    
+    
+    UIButton *buttonn = [UIButton buttonWithType:UIButtonTypeCustom];
+    buttonn.frame = CGRectMake( 40, 150,54,29);
+    [buttonn setBackgroundColor:[UIColor greenColor]];
+    //[button setBackgroundImage:image forState:UIControlStateNormal];
+    [buttonn addTarget:self action:@selector(backmethod:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:buttonn];
+    
+    
 //    UIBarButtonItem *barButtonItem = [[[UIBarButtonItem alloc] initWithCustomView:button] autorelease];
     self.navigationItem.rightBarButtonItem = BARBUTTON(@"Right", @selector (rightAction:));
    // self.navigationItem.leftBarButtonItem = BARBUTTON(@"Left", @selector(leftAction:));
